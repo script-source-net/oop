@@ -1,9 +1,16 @@
 package com.company;
 
-public class Taxi {
+public class Taxi extends Car{
     int possibleNumberOfPassengers;
     String company;
     boolean hasOpen24Hours;
+
+    public Taxi(int possibleNumberOfPassengers, String company, boolean hasOpen24Hours) {
+        super("Mercedes", "Yellow", 50);
+        this.possibleNumberOfPassengers = possibleNumberOfPassengers;
+        this.company = company;
+        this.hasOpen24Hours = hasOpen24Hours;
+    }
 
     public int getPossibleNumberOfPassengers() {
         return possibleNumberOfPassengers;
