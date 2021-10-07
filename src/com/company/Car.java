@@ -5,6 +5,12 @@ public class Car {
     private String color;
     private double price;
 
+    public Car(String brand, String color, double price) {
+        this.brand = brand;
+        this.color = color;
+        this.price = price;
+    }
+
     public void drive() {
         System.out.println("Ich fahre.");
     }

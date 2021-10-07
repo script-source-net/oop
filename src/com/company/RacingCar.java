@@ -5,6 +5,10 @@ public class RacingCar extends Car {
     int number;
     int horsePower;
 
+    public RacingCar(String brand, String color, double price) {
+        super(brand, color, price);
+    }
+
     @Override
     public void drive() {
         System.out.println("Ich fahre schnell.");
