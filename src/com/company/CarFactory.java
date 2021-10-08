@@ -12,8 +12,10 @@ public class CarFactory {
          todo:
           - Taxi soll von Car erben
           - Aktivieren Code unten ohne ihn abzuändern, sodass er kompiliert:
+
+         */
         var taxi = new Taxi(5, "Alptaxi", true);
         taxi.drive();
-         */
+
     }
 }

@@ -1,9 +1,18 @@
 package com.company;
 
-public class Taxi {
+public class Taxi extends Car{
     int possibleNumberOfPassengers;
     String company;
     boolean hasOpen24Hours;
+
+    public Taxi(int possibleNumberOfPassengers, String company, boolean hasOpen24Hours){
+        this.company = company;
+        this.possibleNumberOfPassengers = possibleNumberOfPassengers;
+        this.hasOpen24Hours = hasOpen24Hours;
+        super.setColor("Yellow");
+        super.setBrand("Mercedes");
+        super.setPrice(50);
+    }
 
     public int getPossibleNumberOfPassengers() {
         return possibleNumberOfPassengers;
@@ -27,5 +36,15 @@ public class Taxi {
 
     public void setHasOpen24Hours(boolean hasOpen24Hours) {
         this.hasOpen24Hours = hasOpen24Hours;
+    }
+
+    public void drive(){
+        String hours24;
+        if (hasOpen24Hours){
+            hours24 = "Ich fahre 24h";
+        } else {
+            hours24 = "Ich fahre keine 24h";
+        }
+        System.out.println(hours24 + " ein " + this.getBrand() + " Taxi mit " + this.possibleNumberOfPassengers + " Passagierplätzen");
     }
 }
