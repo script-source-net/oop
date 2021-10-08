@@ -6,12 +6,10 @@ public class Taxi extends Car{
     boolean hasOpen24Hours;
 
     public Taxi(int possibleNumberOfPassengers, String company, boolean hasOpen24Hours){
+        super("Mercedes", "Yellow", 50);
         this.company = company;
         this.possibleNumberOfPassengers = possibleNumberOfPassengers;
         this.hasOpen24Hours = hasOpen24Hours;
-        super.setColor("Yellow");
-        super.setBrand("Mercedes");
-        super.setPrice(50);
     }
 
     public int getPossibleNumberOfPassengers() {
