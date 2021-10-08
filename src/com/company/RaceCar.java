@@ -13,6 +13,6 @@ public class RaceCar extends Car{
 
     public void drive(){
         System.out.println("Ich fahre für " + this.team + " mit der Nummer "
-                + this.number+ " mit " + this.horsePower + " Pferdestärken!");
+                + this.number+ " und mein Fahrzeug hat " + this.horsePower + " Pferdestärken!");
     }
 }
