@@ -9,6 +9,9 @@ public class CarFactory {
         bmw.setPrice(50000);
         bmw.drive();
 
+        var f1 = new RaceCar("Ferrari", 10, 350);
+        f1.drive();
+
     /*
         todo: implementiere ein RacingCar mit folgenden Eigenschaften:
         - team (String)

@@ -5,6 +5,7 @@ public class Car {
     private String color;
     private double price;
 
+
     public void drive() {
         System.out.println("Ich fahre.");
     }
