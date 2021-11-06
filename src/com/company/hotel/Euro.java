@@ -1,6 +1,4 @@
-package com.company;
-
-import java.util.logging.SocketHandler;
+package com.company.hotel;
 
 public class Euro extends Waehrung{
     public static double kurs = 1;

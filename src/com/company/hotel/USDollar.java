@@ -1,4 +1,4 @@
-package com.company;
+package com.company.hotel;
 
 public class USDollar extends Waehrung{
     private double betrag;

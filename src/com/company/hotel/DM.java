@@ -1,4 +1,4 @@
-package com.company;
+package com.company.hotel;
 
 public class DM extends Euro{
     public DM(double dm){

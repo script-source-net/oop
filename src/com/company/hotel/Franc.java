@@ -1,4 +1,4 @@
-package com.company;
+package com.company.hotel;
 
 public class Franc extends Euro{
     public Franc(double franc){

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.hotel;
 
 public class Lire extends Euro{
     public Lire(double lire){

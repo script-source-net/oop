@@ -1,4 +1,4 @@
-package com.company;
+package com.company.hotel;
 
 import java.util.Scanner;
 
@@ -52,5 +52,8 @@ public class WaehrungsKalkulator {
                         ,dm.waehrungsBetrag(), dm.euroBetrag(), l.waehrungsBetrag(), f.waehrungsBetrag());
                 break;
         }
+        Wertgegenstand[] wertgegenstände = new Wertgegenstand[2];
+        wertgegenstände[0] = new Goldbarren(1);
+        wertgegenstände[1] = new Kruegerrand();
     }
 }

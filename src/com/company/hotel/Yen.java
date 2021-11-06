@@ -1,4 +1,4 @@
-package com.company;
+package com.company.hotel;
 
 public class Yen extends Waehrung{
     private double betrag;
